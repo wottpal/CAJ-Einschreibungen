@@ -10,7 +10,6 @@
 		20ADD42B1AF0EED0004AE5BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADD42A1AF0EED0004AE5BB /* AppDelegate.swift */; };
 		20ADD42D1AF0EED0004AE5BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADD42C1AF0EED0004AE5BB /* TableViewController.swift */; };
 		20ADD4301AF0EED0004AE5BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ADD42E1AF0EED0004AE5BB /* Main.storyboard */; };
-		20ADD4321AF0EED0004AE5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ADD4311AF0EED0004AE5BB /* Images.xcassets */; };
 		20ADD4351AF0EED0004AE5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20ADD4331AF0EED0004AE5BB /* LaunchScreen.xib */; };
 		20ADD44D1AF0F24F004AE5BB /* CAJController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADD44C1AF0F24F004AE5BB /* CAJController.swift */; };
 		95377BE51B02853C00054D72 /* Injection.js in Resources */ = {isa = PBXBuildFile; fileRef = 95377BE41B02853C00054D72 /* Injection.js */; };
@@ -22,7 +21,6 @@
 		20ADD42A1AF0EED0004AE5BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20ADD42C1AF0EED0004AE5BB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		20ADD42F1AF0EED0004AE5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20ADD4311AF0EED0004AE5BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20ADD4341AF0EED0004AE5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		20ADD44C1AF0F24F004AE5BB /* CAJController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAJController.swift; sourceTree = "<group>"; };
 		95377BE41B02853C00054D72 /* Injection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Injection.js; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 		20ADD4281AF0EED0004AE5BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				20ADD4311AF0EED0004AE5BB /* Images.xcassets */,
 				20ADD4331AF0EED0004AE5BB /* LaunchScreen.xib */,
 				20ADD42A1AF0EED0004AE5BB /* AppDelegate.swift */,
 				20ADD4291AF0EED0004AE5BB /* Info.plist */,
@@ -138,7 +135,6 @@
 				20ADD4301AF0EED0004AE5BB /* Main.storyboard in Resources */,
 				20ADD4351AF0EED0004AE5BB /* LaunchScreen.xib in Resources */,
 				95377BE51B02853C00054D72 /* Injection.js in Resources */,
-				20ADD4321AF0EED0004AE5BB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
