@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--CAJ-EInschreibungen-->
+        <!--CAJ-Einschreibungen-->
         <scene sceneID="nda-UO-HEC">
             <objects>
                 <tableViewController id="lsb-ze-bN0" customClass="TableViewController" customModule="CAJ_Einschreibungen" customModuleProvider="target" sceneMemberID="viewController">
@@ -40,7 +40,7 @@
                             <outlet property="delegate" destination="lsb-ze-bN0" id="Ssc-Ke-H9p"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CAJ-EInschreibungen" id="AhO-mE-txc"/>
+                    <navigationItem key="navigationItem" title="CAJ-Einschreibungen" id="AhO-mE-txc"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="if0-YF-zwf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
