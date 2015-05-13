@@ -19,6 +19,17 @@ protocol CAJControllerDelegate: class {
 }
 
 
+// Collecting all course-relevant informations into on data-structure
+// A 'struct' in Swift offers great performance and isn't a memory/performance-overhead
+struct CAJCourse {
+    let typ: String
+    let name: String
+    let dozent: String
+    let ort: String
+    let zeit: String
+}
+
+
 // Our class which does the actual fetching-work. It get's a username/password,
 // loads the CAJ into a WKWebView, injects the credentials, fires the login-event,
 // waits for the course-page to be displayed and crawls any course-informations

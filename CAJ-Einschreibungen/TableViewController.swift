@@ -9,17 +9,6 @@
 import UIKit
 
 
-// Collecting all course-relevant informations into on data-structure
-// A 'struct' in Swift offers great performance and isn't a memory/performance-overhead
-struct CAJCourse {
-    let typ: String
-    let name: String
-    let dozent: String
-    let ort: String
-    let zeit: String
-}
-
-
 // The ViewController of our Course-Table which is asked for the contents
 // of the table by the table itself, because we have marked this class as
 // 'UITableViewDataSource' in the Interface-Builder ('.storyboard'-file).
